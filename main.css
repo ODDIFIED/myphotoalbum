@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+nav{
+    border: 2px solid navy;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    color: navy;
+    border-radius: 5px;
+    background-color: navy;
+    padding: 10px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: navy;
+    color: white;
+}
+span{
+    color: red;
+    font-size: x-large;
+    background-color: navy;
+}
+.nav_items{
+    margin-top: 7px;
+    background-color: navy;
+}
+.nav_items>a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: navy;
+    margin-left: 10px;
+}
+.nav_items :hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: 900;
+}
+.search{
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+}
+.search>input[type=search]{
+    padding: 7px;
+    border: 2px solid navy;
+    background-color: white;
+}
+
+main{
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+section{
+    width: 100%;
+    max-width: 800px;
+}
+.imgcon{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.pic_hold{
+    border: 2px solid navy;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 4px;
+    margin-top: 50px;
+}
+.card{
+    padding: 15px;
+}
+.pic_hold>img{
+    height: 25vh;
+    width: 100%;
+}
+.content{
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid navy;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-weight: 900;
+    color: navy;
+}
+footer{
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 130px;
+    /* border: 1px solid red; */
+}
+footer>h4{
+    font-size: small;
+    color: navy;
+
+}
